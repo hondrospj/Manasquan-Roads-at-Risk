@@ -1,0 +1,45 @@
+{
+  "name": "Roads at Risk - Manasquan DEM",
+  "source": "USGS 3DEP Bare Earth DEM Dynamic ImageServer",
+  "sourceUrl": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer",
+  "sourceDescription": "USGS 3D Elevation Program (3DEP) Bare Earth DEM Dynamic service, retrieved for the Roads at Risk municipal rollout.",
+  "downloadedAt": "2026-08-10",
+  "processing": "Exported from USGS 3DEP at municipal extent, masked to the Manasquan Borough boundary, resampled to 1.524 m / 5 ft pixels, and compressed as a Cloud Optimized GeoTIFF.",
+  "horizontalCrs": "EPSG:3857",
+  "verticalUnits": "meters",
+  "displayElevationUnits": "feet",
+  "pixelSizeMeters": 1.524,
+  "pixelSizeFeet": 4.99999999998,
+  "adaptiveResolution": false,
+  "width": 2264,
+  "height": 3030,
+  "nodata": -999999,
+  "minMeters": -1.62,
+  "maxMeters": 16.338,
+  "meanMeters": 3.224,
+  "stdDevMeters": 2.673,
+  "minFeet": -5.314960629900001,
+  "maxFeet": 53.60236220451001,
+  "webMercatorBounds": [
+    -8244542.924881,
+    4880623.6798600005,
+    -8241092.588881,
+    4885241.39986
+  ],
+  "leafletBounds": [
+    [
+      40.1009589,
+      -74.0619892
+    ],
+    [
+      40.1326776,
+      -74.0309949
+    ]
+  ],
+  "files": {
+    "demCog": "manasquan_dem_5ft_cog.tif",
+    "hillshadeCog": "manasquan_hillshade_cog.tif",
+    "hillshadePng": "manasquan_hillshade.png",
+    "boundaryGeojson": "manasquan_boundary.geojson"
+  }
+}
